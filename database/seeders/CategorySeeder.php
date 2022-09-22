@@ -27,7 +27,7 @@ class CategorySeeder extends Seeder
                 'name' => 'ベビーカー',
                 'sort_order' => 3,
             ],
-        ]);
+            ]);
 
         DB::table('secondary_categories')->insert([
             [
@@ -60,6 +60,8 @@ class CategorySeeder extends Seeder
                 'sort_order' => 6,
                 'primary_category_id' => 2
             ],
-        ]);
-    }
+            ]);
+
+    
+        }
 }

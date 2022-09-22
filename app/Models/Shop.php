@@ -19,11 +19,14 @@ class Shop extends Model
         'is_selling'
     ];
 
-    public function owner(){
+    public function owner()
+    {
         return $this->belongsTo(Owner::class);
     }
-    
-    public function product(){
+
+    public function product()
+    {
         return $this->hasMany(Product::class);
     }
+
 }

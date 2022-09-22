@@ -19,7 +19,7 @@ class CreateCategoriesTable extends Migration
             $table->integer('sort_order');
             $table->timestamps();
         });
-        
+
         Schema::create('secondary_categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
