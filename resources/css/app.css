@@ -1,7 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'micromodal';
+@import 'swiper';
 
+.swiper-container {
+  /* width: 600px; */
+  height: 300px;
+}
 
 .modal {
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
